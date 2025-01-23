@@ -1,4 +1,4 @@
-neims="gio"
+neims = "gio"
 print()
 print(2011)
 print(22)
