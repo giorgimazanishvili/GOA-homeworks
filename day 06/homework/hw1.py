@@ -1,11 +1,11 @@
-# შეამოწმე, არის თუ არა მომხმარებლის რიცხვი უარყოფითი.
 
+#დავალება: მომხმარებელს შემოატანინეთ 2 რიცხვი, ხოლო შემდეგ გაკეთეთ ამ რიცხვებზე ყველა მათემატიკური ოპერაცია ცალცალკე.
 
-num = int(input("Enter your number: "))
+num1 = int(input("შემოიყვანეთ პირველი რიცხვი: "))
+num2 = int(input("შემოიყვანეთ მეორე რიცხვი: "))
 
-if num < 0:
-    print("your number is negative ")
-elif num == 0:
-    print("your number = 0  ")
-else:
-    print("your number is positive ")
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1 // num2)
+

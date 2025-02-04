@@ -87,29 +87,4 @@ pendown()
 left(330)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 exitonclick()

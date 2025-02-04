@@ -1,14 +1,7 @@
-#turtle
-
-#left() - მარცხნივ
-#right() - მარჯვნივ
-#forward() - წინ წასვლა 
-#penup() - ფანქრის აღება
-#goto() - 
-#pendown()
+# დაასრულე სასახლის გაფერადება
 
 from turtle import *
-speed(6)
+speed(10)
 #square
 fillcolor("red")
 begin_fill()
@@ -61,6 +54,8 @@ pendown()
 
 
 #roof
+fillcolor("green")
+begin_fill()
 penup()
 goto(0,200)
 pendown()
@@ -68,12 +63,17 @@ right(225)
 forward(142)
 right(90)
 forward(142)
+right(135)
+forward(201)
+
+end_fill()
 
 penup()
 goto(0,0)
 pendown()
-
-left(135)
+fillcolor("red")
+begin_fill()
+left(270)
 forward(230)
 left(90)
 forward(200)
@@ -81,13 +81,14 @@ left(90)
 forward(230)
 left(90)
 forward(200)
-
+end_fill()
 penup()
 goto(-20 , 110)
 pendown()
 
 #windows
-
+fillcolor("brown")
+begin_fill()
 left(90)
 forward(60)
 left(90)
@@ -96,11 +97,12 @@ left(90)
 forward(60)
 left(90)
 forward(60)
-
+end_fill()
 penup()
 goto(-120,110)
 pendown()
-
+fillcolor("brown")
+begin_fill()
 left(90)
 forward(60)
 left(90)
@@ -109,21 +111,24 @@ left(90)
 forward(60)
 left(90)
 forward(60)
-
+end_fill()
 penup()
 goto(-70,0)
 pendown()
+fillcolor("yellow")
+begin_fill()
 left(90)
 forward(80)
 left(90)
 forward(60)
 left(90)
 forward(80)
-
+end_fill()
 penup()
 goto(-400,0)
 pendown()
-
+fillcolor('red')
+begin_fill()
 left(90)
 forward(200)
 left(90)
@@ -132,11 +137,12 @@ left(90)
 forward(200)
 left(90)
 forward(200)
-
+end_fill()
 penup()
 goto(-380 , 110)
 pendown()
-
+fillcolor("brown")
+begin_fill()
 left(90)
 forward(60)
 left(90)
@@ -145,12 +151,12 @@ left(90)
 forward(60)
 left(90)
 forward(60)
-
+end_fill()
 penup()
 goto(-280 , 110)
 pendown()
-
-
+fillcolor("brown")
+begin_fill()
 left(90)
 forward(60)
 left(90)
@@ -159,8 +165,10 @@ left(90)
 forward(60)
 left(90)
 forward(60)
-
+end_fill()
 #roof
+fillcolor("green")
+begin_fill()
 penup()
 goto(-400,200)
 pendown()
@@ -168,36 +176,50 @@ right(225)
 forward(142)
 right(90)
 forward(142)
-
-
+right(135)
+forward(201)
+end_fill()
 penup()
 goto(-200,227)
 pendown()
-left(100)
-forward(180)
-right(112)
-forward(180)
+fillcolor("green")
+begin_fill()
+right(135)
+forward(142)
+right(90)
+forward(142)
+right(135)
+forward(201)
+end_fill()
 
+penup()
+goto(-300,300)
+pendown()
+right(90)
+forward(50)
+fillcolor("blue")
+begin_fill()
+right(90)
+forward(50)
+right(90)
+forward(25)
+right(90)
+forward(50)
+end_fill()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+penup()
+goto(100,300)
+pendown()
+right(90)
+forward(50)
+fillcolor("blue")
+begin_fill()
+right(90)
+forward(50)
+right(90)
+forward(25)
+right(90)
+forward(50)
+end_fill()
 
 exitonclick()
