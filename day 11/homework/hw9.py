@@ -1,8 +1,15 @@
-# 10)შემოატანინეთ მომხმარებელს მისი ასაკი თუ მისი ასაკი 18 წელზე მეტია დაუპრინტეთ “you are adult” თუ 18 წელზე ნაკლები “you are virgin”
+# 9)შემოატანინეთ მომხმარებელს რიცხვი და დაადგინეთ არის თუ არა დადებითი უარყოფითი ან ნულის ტოლი 
+num = int(input("Enter your number: "))
 
-age=int(input("enter your age "))
+if num < 0:
+    print("your number is less then 0 ")
 
-if age >= 18:
-    print("you are adult")
-elif age<18:
-    print("you are virgin")
+elif num == 0:
+    print("your number = 0  ")
+else:
+    print("your number is more then 0")
+
+
+
+
+
