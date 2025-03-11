@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height:100vh;
+}
+
+header{
+    background-color: #e8e8e8;
+    display: flex;
+    height: 90px;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px ;
+    font-size: 18px;    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-left:700px ;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+div img{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+
+    
+}
+div{
+    display: flex;
+    flex-direction:row ;
+    gap: 50px;
+    padding-top: 100px;
+}
+ul button{
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    
+}
+
+.logo{
+    padding-left: 50px;
+    width: 130px;
+}
