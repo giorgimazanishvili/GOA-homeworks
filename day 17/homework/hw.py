@@ -1,1 +1,0 @@
-# araferi gvqonda
