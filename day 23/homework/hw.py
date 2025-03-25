@@ -18,5 +18,4 @@
 
 # https://www.youtube.com/watch?v=89cGQjB5R4M            9) Functions in Python are easy
 
-# https://www.youtube.com/watch?v=Sg4GMVMdOPo&list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT            
-# 10) Start coding with PYTHON in 5 minutes!
+# https://www.youtube.com/watch?v=Sg4GMVMdOPo&list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT     10) Start coding with PYTHON in 5 minutes!
