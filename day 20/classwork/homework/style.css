@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:rgb(221, 162, 162); 
+}
+img{
+    border-radius: 50 px;
+}
+button{
+    background-color: #d17171;
+    height: 30px;
+    width: 200px;
+    border-radius:40px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+p{
+    color: beige;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+

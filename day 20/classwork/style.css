@@ -1,0 +1,22 @@
+
+body{
+    background-color: blue;
+}
+img{
+    border-radius: 100px;
+}
+button{
+    background-color: green;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight:bold;
+}
+ul{
+    list-style: none;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+}
